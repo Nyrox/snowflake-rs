@@ -19,7 +19,7 @@ default = ["cert-auth"]
 polars = ["dep:polars-core", "dep:polars-io"]
 
 [dependencies]
-arrow = "53"
+arrow = { git = "https://github.com/apache/arrow-rs.git", package = "arrow" }
 async-trait = "0.1"
 base64 = "0.22"
 bytes = "1"
